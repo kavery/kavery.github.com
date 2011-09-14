@@ -47,5 +47,12 @@ table {
 	border-spacing: 0;
 }
 
+header { height: 40px; font-family: arial, verdana, helvetica } 
+header h1 { font-size:50px; color:#990000; }
+header h2 { font-size:20px; color:#000000}
+
+section { padding:60px 100px 60px 60px; line-height: 16px}
+section h2 {font-size:14; font-weight:bold;}
+
 /* Add Styles Here */
 body { font-family:Times; font-size:14px; }
