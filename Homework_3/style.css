@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    width:960px }
+
+header #site-header {
+	position:absolute;
+	display:block }
+
+#site-header h1 { 
+    font-size:40px }
+
+nav#top-nav { 
+    position:absolute;  
+    left:20px; 
+	font-size:15px; 
+	color:darkred; 
+	word-spacing:50px }
+
+section#main-info { 
+    display:block;
+	font: 12px #999 Arial, Helvetica, sans-serif; }
+	
+section h1 { color:#363 }
+
+section p { line-height:2em; }
+
+#main-footer {font-size:10px }
+
+.dog-content {
+	width:200px }
