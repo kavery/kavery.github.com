@@ -68,9 +68,8 @@ table {
 
 body {
     line-height: 1; 
-	width:960px; 
 	margin:0 auto;
-	font:12px Verdana, Geneva, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 header { 
@@ -82,7 +81,7 @@ header {
 }
 
 footer { 
-   position:relative; 
+   position:relative;
    bottom:0; 
    left:0;
    clear:both;
@@ -121,40 +120,36 @@ h2 {
   background:url(logo.png) no-repeat left top;
 }
 
-#top-nav a{
-	width:300px;
+#top-nav {
+	font-family:Arial, Helvetica, sans-serif;
 	float:right;
-	clear:both;
 	top:0;
-	right:0
-	color:#744918;
+	right:0;
 }
 
 #top-nav a {
-	width:300px;
-	float:right;
-	clear:both;
-	top:0;
-	right:0
-	color:#744918;
+	font-family:Arial, Helvetica, sans-serif;
 	text-decoration:none;
+	color:#744918;
+}
+
+#menu-wrapper {
+	background-color:#630;
+	height:30px;
 }
 
 #main-menu {
 	padding-left:100px;
-	background-color:#744918;
 }
 
 #main-menu ul {
 	color:#FFF;	
-	backgroud-color:#744918;
 }
 
 #main-menu ul li {
 	float:left;
 	color:#FFF;
 	padding:10px 10px;
-	background-color:#744918;
 }
 
 #main-menu ul li a {
@@ -164,21 +159,38 @@ h2 {
 }
 
 #content {
-	float:left;
 	width:400px;
-	
 }
 
-#sidebar {
-	position:absolute;
+#page {
 	float:left;
-	clear:both;
-	width:150px;
+	margin:0 auto;
+	width:400px;
+}
+
+
+#sidebar {
+	float:right;
+	width:200px;
+}
+
+#footer-wrapper {
+	
 }
 
 footer h1 {
 	color:#FFF;
 	font:10px Arial, Helvetica, sans-serif
+}
+
+#footer-contact {
+	float:left;
+	width:100px;
+
+}
+
+#footer-follow {
+	floar:right;
 }
 	
 #sitefooter {
