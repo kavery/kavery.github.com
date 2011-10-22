@@ -4,59 +4,87 @@
 body {
     margin:0 auto;
 	width:960px;
+	font:12px #000 Arial, Helvetica, sans-serif;
 	}
 
 header {
 	position:relative;
 	}
 	
+footer {
+	position:absolute;
+	bottom:0;
+	clear:both;
+	}
+	
 a:link {
 	color:#000;
-	decoration:none;
+	text-decoration:none;
+	border:none;
+	color:darkred;
 }
 
-#site-header { 
+a:hover {
+	color:#000;
+	text-decoration:none;
+	border:0;
+}
 
-    
-	}
 
+header#site-header {
+	position:relative;
+	height:80px;
+	font-size:15px;
+	color:darkred;
+	word-spacing:50px;
+
+}
 
 #site-header h1 { 
-    font-size:40px;
-	}
+  display:block;	
+  text-indent:-9999px;    
+  position:absolute;
+  width:300px; height:80px;
+  	font:20px #fff Arial, Helvetica, sans-serif;
+  	border-top:2px #000 solid;
+	border-bottom:2px #000 solid;
+  background: url(images/dogsvscat.png) no-repeat left top;
+}
 
 #top-nav {
 	position:absolute;
-	left:20px;
+	top:0;
+	right:0;
 	font-size:15px;
 	color:darkred;
 	word-spacing:50px;
 	border-top:2px #000 solid;
 	border-bottom:2px #000 solid;
-	padding:10px 0 10px 0;
-	width: 465px;
+	font:20px #fff Arial, Helvetica, sans-serif;
 }
 	
-#top-nav ul li{ 
-    float:left;
+#top-nav ul { 
 	display:block;
-	padding:5px 0 5px 0;}
+    float:left;
+	padding:5px 10px 5px 10px;
+	text-decoration:none;
+	border:none;
+	}
 
 #main-info {
+	clear:both;
 	position:absolute;
 	top:200px;
-	left:0;
-	clear:both;
 	font: 12px #999 Arial, Helvetica, sans-serif;
 	width: 891px;
 }
 	
-section h1 { color:#363 }
 
 section p { line-height:2em; }
 
 
 .dog-content {
+	clear:both;
 	float:left;
 	width:400px;
 	padding:10px}
@@ -68,7 +96,4 @@ section p { line-height:2em; }
 	
 	
 #main-footer {
-	position:absolute;
-	left:0;
-	clear:both;
 	font-size:10px }
